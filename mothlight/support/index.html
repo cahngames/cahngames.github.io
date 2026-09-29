@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mothlight Support</title>
+<link rel="icon" href="../../assets/mothlight-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700;800&display=swap">
+<style>
+:root { color-scheme: dark; --ink: #fff2dc; --soft: rgba(255,242,220,.72); --line: rgba(255,242,220,.14); --lamp: #ffb547; --card: rgba(43,18,54,.8); }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: linear-gradient(#1f0b2b, #52193f) fixed; color: var(--ink); font: 400 17px/1.65 "Nunito", "Segoe UI", system-ui, sans-serif; padding-inline: 20px; padding-block: 40px 64px; }
+.wrap { max-width: 44rem; margin: 0 auto; display: grid; gap: 28px; }
+header { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; }
+header img { width: 72px; height: 72px; border-radius: 18px; }
+h1, h2 { font-family: "Lilita One", "Arial Rounded MT Bold", system-ui, sans-serif; font-weight: 400; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 6vw, 2.6rem); line-height: 1.05; }
+h2 { font-size: 1.25rem; }
+p { margin: 0; color: var(--soft); }
+.faq { display: grid; gap: 14px; }
+.q { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; display: grid; gap: 6px; }
+.contact { border: 1px solid rgba(255,181,71,.45); background: rgba(255,181,71,.1); border-radius: 18px; padding: 18px; display: grid; gap: 6px; }
+.email { font-weight: 800; font-size: 1.1rem; color: var(--ink); user-select: all; }
+a { color: var(--lamp); text-underline-offset: 3px; }
+footer { color: var(--soft); font-size: .9rem; border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="../../assets/mothlight-icon.png" alt="">
+    <div>
+      <h1>Mothlight Support</h1>
+      <p>Help with the game, purchases and your data.</p>
+    </div>
+  </header>
+
+  <div class="contact">
+    <h2>Contact us</h2>
+    <p>Email us and include your device model and what happened. We usually reply within two working days.</p>
+    <p class="email">cahnjordy1@gmail.com</p>
+  </div>
+
+  <section class="faq">
+    <div class="q"><h2>How do I play?</h2><p>Your moth circles the lamp on two orbits. Tap anywhere to hop between them. Collect sparks, avoid thorns, and get close to thorns without touching them for bonus points.</p></div>
+    <div class="q"><h2>How do lives work?</h2><p>You have 5 lives and each run uses one. A life comes back every 20 minutes, even while the game is closed. You can also refill with coins or watch an optional ad for one extra life.</p></div>
+    <div class="q"><h2>I bought coins but didn't get them.</h2><p>Close and reopen Mothlight with an internet connection; unfinished purchases are delivered automatically. If they still don't arrive, email us with your order number from Google Play or the App Store.</p></div>
+    <div class="q"><h2>How do I restore the starter pack on a new device?</h2><p>Open <strong>Settings</strong> in the game (the gear on the home screen) and tap <strong>Restore purchases</strong>. On Android this also happens automatically.</p></div>
+    <div class="q"><h2>Will I lose my progress?</h2><p>Progress is saved on your device. Deleting the app or clearing its data removes it, so keep the app installed when you change settings.</p></div>
+    <div class="q"><h2>How do I turn off personalised ads or analytics?</h2><p>Open <strong>Settings</strong> in the game and switch <strong>Personalised ads &amp; analytics</strong> off. Read more in the <a href="../privacy/">privacy policy</a>.</p></div>
+    <div class="q"><h2>How do I delete my data?</h2><p>Uninstall the game to remove local data. To delete your leaderboard score and analytics data, email us and we'll handle it.</p></div>
+  </section>
+
+  <footer>Mothlight · Cahn Games · <a href="../../">Home</a> · <a href="../privacy/">Privacy policy</a></footer>
+</div>
+</body>
+</html>
